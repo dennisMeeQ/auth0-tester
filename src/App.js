@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { useAuth0 } from '@auth0/auth0-react';
+// import { useAuth0 } from '@auth0/auth0-react';
 import Button from '@material-ui/core/Button';
 
-// import { useAuth0 } from './auth/react-auth0-spa';
+import { useAuth0 } from './auth/react-auth0-spa';
 import auth0Config from './config/auth0.config.json';
 
 const { audience } = auth0Config;
